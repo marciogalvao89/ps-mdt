@@ -5,16 +5,10 @@ Config.RosterLink = {
     ['ambulance'] = '',
     ['bcso'] = '',
     ['doj'] = '',
-    ['sast'] = '',
-    ['sasp'] = '',
-    ['doc'] = '',
-    ['lssd'] = '',
-    ['sapr'] = '',	
 }
 
 
 Config.UseWolfknightRadar = false
-Config.WolfknightNotifyTime = 5000 --How long the notification displays for in milliseconds (30000 = 30 seconds)
 --[[
 Adds support for Wraith ARS 2X by WolfKnight98 (wk_wars2x)
 https://github.com/WolfKnight98/wk_wars2x
@@ -121,7 +115,6 @@ Config.PenalCode = {
     }
 }
 
-
 Config.PoliceJobs = {
     ['police'] = true,
     ['lspd'] = true,
@@ -129,7 +122,6 @@ Config.PoliceJobs = {
     ['sast'] = true,
     ['sasp'] = true,
     ['doc'] = true,
-    ['lssd'] = true,
     ['sapr'] = true,
     ['pa'] = true -- yucky
 }
@@ -141,7 +133,6 @@ Config.AmbulanceJobs = {
 
 Config.DojJobs = {
     ['lawyer'] = true,
-    ['judge'] = true
 }
 
 -- Leave my hacky code alone ya goblins
@@ -529,7 +520,7 @@ end
 
 -- this is a hack, because the qb-menu in qb-policejob populates an impound location and passed it through to the event.
 -- if this impound locations are changed in qb-policejob, they must also be changed here.
-Config.ImpoundLocations = {
-    [1] = vector4(436.68, -1007.42, 27.32, 180.0),
-    [2] = vector4(-436.14, 5982.63, 31.34, 136.0),
+Config.ImpoundLocations = { 
+    [1] = vector4(441.92, -979.45, 30.68, 235.66),
+    [2] = vector4(-446.85, 6012.65, 32.28, 44.41),
 }
